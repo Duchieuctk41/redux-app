@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import classes from "./App.modules.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className={classes.App}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
