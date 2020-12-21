@@ -1,11 +1,14 @@
+import React from "react";
+import { Route } from "react-router-dom";
+import HomePage from "./components/Home/HomePage";
+import AboutPage from "./components/About/AboutPage";
 import classes from "./App.css";
 
-function App() {
-  return (
-    <div className={classes.App}>
-      <p>dau cat buoi</p>
-    </div>
-  );
-}
+const app = (props) => (
+  <div className="container-fluid">
+    <Route exact path="/" component={HomePage} />
+    <Route path="/about" component={AboutPage} />
+  </div>
+)
 
-export default App;
+export default app;
