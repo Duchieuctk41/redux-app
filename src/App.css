@@ -1,4 +1,15 @@
 .App {
   text-align: center;
-  background-color: blue;
+  height: 300px;
+  background-color: #e4dbdb;
+  width: 80%;
+  margin: auto;
+}
+
+.Header {
+  margin: 5px;
+}
+
+nav {
+  padding: 20px 0 20px 0;
 }
